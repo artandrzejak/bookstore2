@@ -193,6 +193,7 @@ public class BookFunctions {
                 .collect(Collectors.toList());
     }
 
+
     public List<Book> getBooksReleasedAfter2003stream(List<Book> listOfBooks) {
         return listOfBooks.stream()
                 .filter(x -> x.getYear() > 2003)
